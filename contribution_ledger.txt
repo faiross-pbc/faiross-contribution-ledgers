@@ -1,0 +1,21 @@
+# This file represents the names of contributors and credit allocations for this open source project.  The granularity of credit allocations can be configured at the discretion of the project but are set by default.
+
+# Allocation units are in basis points, representing percentages of the overall contribution credit allocation reserved for this project.
+#   - milli-bps - 1 bp is 1000 milli-bips
+#   - micro-bps - 1 bp is 1000000 micro-bps
+#   - 100 bps = 1% of the overall allocation
+
+unit_assignment: milli-bps
+overall_allocation = 10000000
+
+ledger:
+Person #1, 1500000
+Person #2, 500000
+Person #3, 1250000
+Person #4, 750000
+Person #5, 800000
+Person #6, 1200000
+Person #7, 1750000
+Person #8, 250000
+Person #9, 350000
+Person #10, 1650000
