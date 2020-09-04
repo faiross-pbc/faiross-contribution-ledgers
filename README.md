@@ -12,7 +12,7 @@ This is a template concept for how open source projects could manage contributio
 
 For many projects, attribution of contribution credit doesn’t occur formally, if at all. In many cases it is simply a decision to merge or not merge.
 
-```The intent here is to begin to design methods that allow a flow of credit (financial, social, academic, etc…) from projects to their contributors and projects if interest.```
+```The intent here is to begin to design methods that allow a flow of credit (financial, social, academic, etc…) from projects to their contributors and projects of interest.```
 
 As a starting point, we created 2 files. We don’t know where these files will live in the development or project management process or what form the overall solution will take. For the moment, they are simple text ledgers, a place for projects to assign value.
 
