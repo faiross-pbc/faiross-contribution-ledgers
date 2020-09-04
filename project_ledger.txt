@@ -1,0 +1,21 @@
+# This file represents the names of projects and credit allocations for this open source project.  The granularity of credit allocations can be configured at the discretion of the project but are set by default.
+
+# Allocation units are in basis points, representing percentages of the overall project credit allocation reserved for this project.
+#   - milli-bps - 1 bp is 1000 milli-bips
+#   - micro-bps - 1 bp is 1000000 micro-bps
+#   - 100 bps = 1% of the overall allocation
+
+unit_assignment: milli-bps
+overall_allocation = 10000000
+
+ledger:
+Project #1, 1500000
+Project #1, 500000
+Project #1, 1250000
+Project #1, 750000
+Project #1, 800000
+Project #1, 1200000
+Project #1, 1750000
+Project #1, 250000
+Project #1, 350000
+Project #1, 1650000
