@@ -7,8 +7,9 @@
 
 unit_assignment: milli-bps
 overall_allocation = 10000000
+dependency_allocation = 4000000
 
-ledger:
+contributor_allocation:
 Person #1, 1500000
 Person #2, 500000
 Person #3, 1250000
