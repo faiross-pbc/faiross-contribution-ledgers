@@ -12,19 +12,16 @@ This is a template concept for how open source projects could manage contributio
 
 For many projects, attribution of contribution credit doesn’t occur formally, if at all. In many cases it is simply a decision to merge or not merge.
 
-```The intent here is to begin to design methods that allow a flow of credit (financial, social, academic, etc…) from projects to their contributors and projects of interest.```
+```The intent here is to begin to design methods that allow a flow of credit (financial, social, academic, etc…) from end-results that eventually trade with monetary value to the contributors and dependencies that helped create that value.```
 
-As a starting point, we created 2 files. We don’t know where these files will live in the development or project management process or what form the overall solution will take. For the moment, they are simple text ledgers, a place for projects to assign value.
+As a starting point, we created 2 files.  These files would live in the GitHub repo of a project and be updated by the governance of the project and represent the current value of the dependencies of the project.
 
-* **contribution_ledger.txt** - A file representing the names of contributors and their credit allocations
+* **contribution_ledger.txt** - An (optional) file representing the names of contributors to the current project and their credit allocations.
 
-* **project_ledger.txt** - A file representing the upstream and (potentially) downstream projects that are important to the assigning project
+* **project_ledger.txt** - A required file representing the names of upstream projects and their credit allocations including what the overall weight of the contribution ledger file should be (how much *new* innovation is in this project).
 
 ## How to join in the conversation
-1. We hold open office hours every Friday from 1-3 pm US Central Time [via Discord](https://discord.gg/d49TJwB). Come chat with us about anything!
+1. For asynchronous discussion around the contribution credit concept, go to the topic in our forum [here.](https://community.faiross.org/t/managing-open-source-contribution-credit/129)
 
-2. For asynchronous discussion around the contribution credit concept, go to the topic in our forum [here.](https://community.faiross.org/t/managing-open-source-contribution-credit/129)
+2. To contribute comments, ideas, proposals, edits, etc…please open an issue this repo.
 
-3. To contribute comments, ideas, proposals, edits, etc…please open an issue this repo.
-
-Look forward to the discussion!
