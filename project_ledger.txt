@@ -1,21 +1,28 @@
 # This file represents the names of projects and credit allocations for this open source project.  The granularity of credit allocations can be configured at the discretion of the project but are set by default.
 
 # Allocation units are in basis points, representing percentages of the overall project credit allocation reserved for this project.
-#   - milli-bps - 1 bp is 1000 milli-bips
-#   - micro-bps - 1 bp is 1000000 micro-bps
-#   - 100 bps = 1% of the overall allocation
+#   - milli-bps - 1 bp is 1_000 milli-bips
+#   - micro-bps - 1 bp is 1_000_000 micro-bps
+#   - nano-bps -  1 bp is 1_000_000_000 nano-bps
+#   - bps - 100 bps is 1% of the overall allocation
+# The contribution of the project that this lives in is given by the current_project:  
+#   If not given, it will be the remaining left after adding up all the dependencies contribution.
+# type can be "input" or "full". 
+#   An input type is meant to be written by a person and eventually processed:
+#      * creating the tree of dependencies of any projects listed in the dependencies section
+#      * replace any project names with URLs of projects
+#      * list all projects in the flattened tree of projects and get a full tree of dependencies.
+#   A full type means a file that has URLs and full-dependencies (does not need to be processed).
+# checksum: an optional SHA-512 hash at the top of the file that can be compared against a validated one stored by faiross.org that must be updated intentionally
+
 
 unit_assignment: milli-bps
-overall_allocation = 10000000
-
-ledger:
-Project #1, 1500000
-Project #1, 500000
-Project #1, 1250000
-Project #1, 750000
-Project #1, 800000
-Project #1, 1200000
-Project #1, 1750000
-Project #1, 250000
-Project #1, 350000
-Project #1, 1650000
+current project: 30_000
+type: input
+dependencies:
+MainProject, 30_000
+OtherProject, 20_000
+MinorProject1, 5_000
+MinorProject2, 5_000
+MinorProject3, 5_000
+MinorProject4, 5_000
